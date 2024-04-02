@@ -18,31 +18,52 @@
     <title>Mi experiencia con juegos De Pelea</title>
 </head>
 <body>
-    <header class="sect-header">
+    <header id="ini-home" class="sect-header">
         <h1>Mi experiencia con juegos de pelea</h1>
-        <nav></nav>
+        <nav>
+            <a href="#ini-home">Home</a>
+            <a href="#whishList"> Futuros Juegos</a>
+            <a href="#ini-juegos"> Juegos</a>
+        </nav>
 
     </header>
     <main>
         <section class="resumen">
-            <figure></figure>
-            <figure></figure>
-            <figure></figure>
+            <figure class="cont-img" > <a href="#GGST"><img class="img posters" src="./public/img/posters/GGST.webp" alt="guilty gear: Strive"></a></figure>
+            <figure class="cont-img" > <a href="#SG"><img class="img posters" src="./public/img/posters/SG.webp" alt="Skull Girls: second encore"></a></figure>
+            <figure class="cont-img" > <a href="SFV"><img class="img posters" src="./public/img/posters/SF5.webp" alt="Street Fighter 5: champion edition"></a></figure>
             
         </section>
-        <section class="whishList">
-            <h2 class="whishList title">Futuras Reviews:</h2>
+        <section id="whishList" class="whishList">
+            <h2  class="whishList title">Futuras Reviews:</h2>
+            <div class="whishList cont-img">
+                <figure><img class="img fut-compras" src="./public/img/posters/GGXRD.webp" alt=" guilty Gear Xrd"></figure>
+                <figure><img class="img fut-compras" src="./public/img/posters/tekken8.webp" alt="tekken8"></figure>
+                <figure><img class="img fut-compras" src="./public/img/posters/SF6.avif" alt="Street Fighter 6"></figure>
+            </div>
+            
         </section>
-        <section class="sect-GGST">
-            <h2 class="sect-GGST title">Guilty Gear: Strive</h2>
+        <section id="ini-juegos" class="sect-GGST">
+            <h2 id="GGST" class="layout-0 ttl-GGST ">Guilty Gear: Strive</h2>
+            <div class="layout-1"></div>
+            <div class="layout-2"></div>
+            <section class="video">
+                <figure class="cont-img"><img class="img char" src="/public/img/GGST/elphetChar.png" alt=""></figure>
+                <iframe width="20%" height="350" src="https://www.youtube.com/embed/RVd6vhFhYiM?si=PEqDT36ZwUW11A8O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figure class="cont-img"><img class="img char" src="/public/img/GGST/bedmanchar.webp" alt=""></figure>
+                
+            </section>
 
         </section>
         <section class="sect-SFV">
-            <h2 class="sect-SFV title">Street Fighter V</h2>
+            <h2 id="SFV" class="sect-SFV title">Street Fighter V</h2>
         </section>
         <section class="sect-SG">
-            <h2 class="sect-SG title">Skull Girls: second encore</h2>
+            <h2 id="SG" class="sect-SG title">Skull Girls: second encore</h2>
         </section>
+        <div>
+            <figure></figure>
+        </div>
     </main>
     <footer></footer>
 </body>
