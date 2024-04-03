@@ -9,6 +9,10 @@
     --red_GGST:#640007;
     --yellow_GGST:#ffc100;
     --orange_GGST:#FF8200;
+    --blue_SF:#386fa4;
+    --lightBlue_SF:#59A5D8;
+    --orange_SF:#ff934f;
+    --purple_SF:#503047;
 
 
 
@@ -29,13 +33,16 @@
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 10px;
 
 }
 .sect-header nav{
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 /*main*/
 
@@ -76,11 +83,23 @@
 
 }
 /* Guilty gear:strive*/
+.sect-GGST{
+    background-color: #272727;
+}
 .video{
     /*contenedor de video y dos imagenes*/
     display: flex;
+    justify-content: center;
+    align-items: stretch;
+    overflow: hidden;
 }
 .img-char{
-    width: 5vw;
+    width: 609px;
+    height: 720px;
 }
+/*Street figther 5*/
+.sect-SFV{
+    background-color: var(--blue_SF);
+}
+
 
