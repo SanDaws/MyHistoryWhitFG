@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 /*icons*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
 
 /*variables glovales*/
 :root{
@@ -24,82 +25,3 @@
     margin: 0;
 
 }
-
-
-/*Header*/
-.sect-header{
-    /*Todo el contenedor de header*/
-    background-color: var(--red_GGST);
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    padding: 10px;
-
-}
-.sect-header nav{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-/*main*/
-
-/*seccion resumen muestra una lista de los juegos que se pueden ver*/
-.resumen{
-    /*contenedor de figures ordenados lateralmetne*/
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: scroll;
-    /*ya que exceden el tamaño de pagina, las puse para pasar con un scroll lateral*/
-}
-/*figure de posters*/
-.cont-img{
-    justify-content: space-evenly;
-}
-
-.img.posters{
-    /* afecta todas las imagenes posters*/
-    margin: 1vw;
-    max-width: 90vw;
-    max-height: 50vh;
-}
-/*Seccion whishlist para futuros juegos*/
-
-.whishList.cont-img{
-    /*divicion para las imagenes de futuras listas*/
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.img.fut-compras{
-    /*imagenes de la whish list*/
-    gap: 1vw;
-    width: 47vw;
-    height: 35vh;
-
-}
-/* Guilty gear:strive*/
-.sect-GGST{
-    background-color: #272727;
-}
-.video{
-    /*contenedor de video y dos imagenes*/
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    overflow: hidden;
-}
-.img-char{
-    width: 609px;
-    height: 720px;
-}
-/*Street figther 5*/
-.sect-SFV{
-    background-color: var(--blue_SF);
-}
-
-
