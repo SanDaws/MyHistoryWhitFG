@@ -196,3 +196,14 @@ se aplica en las tres secciones con juegos a la vez*/
     width: 100%;
     /*height: 100%; */
 }
+/*footer*/
+footer{
+    max-height: 25vh;
+}
+.img-a-pag-empresas{
+    display: flex;
+}
+footer img{
+    width: 10%;
+    height: 25%;
+}
