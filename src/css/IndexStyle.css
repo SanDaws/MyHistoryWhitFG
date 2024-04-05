@@ -127,6 +127,7 @@ se aplica en las tres secciones con juegos a la vez*/
     display:  flex;
     width: 80%;
     height: 100%;
+    justify-content: center;
 
 }
 .tex-art-char article span{
@@ -135,8 +136,8 @@ se aplica en las tres secciones con juegos a la vez*/
 .tex-art-char .img-char{
     display: flex;
     gap: 7px;
+    
 }
 .tex-art-char .cont-img-GGST{
-    width: 70%;
-    height: 100%;
+    
 }
