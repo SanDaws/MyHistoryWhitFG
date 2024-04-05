@@ -93,6 +93,8 @@ img{
 }
 .whishList .sect-img{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .whishList .cont-img{
     width: 95%;
@@ -111,10 +113,13 @@ img{
 }
 
 /*guilty gear strive*/
+.sect.ggst{
+    height:80vh ;
+}
 .sect.ggst .video{
     margin: 0 20%;
     display: flex;
-    height: 40vh;
+    height: 40%;
     justify-content: center;
     
 }
@@ -125,21 +130,26 @@ img{
 /*inciso que maneja todos los apartados de articulos y como se distribuyen internamete
 se aplica en las tres secciones con juegos a la vez*/
 .tex-art-char{
-    margin: 5%;
+    margin: 1% 5%;
     display:  flex;
-    width: 80%;
-    height: 100%;
+    width: 90%;
+    height: 40%;
     justify-content: center;
 
 }
+.tex-art-char article{
+    width: 60%;
+}
 .tex-art-char article span{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .tex-art-char .img-char{
     display: flex;
     gap: 7px;
     
 }
+
 .tex-art-char .cont-img-GGST{
+    height: ;
     
 }
