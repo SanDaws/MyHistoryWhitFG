@@ -30,6 +30,9 @@ a{
     text-decoration: none;
     color: var(--white_GGST);
     font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    
 
 }
 /*espacio a descartar*/
@@ -58,19 +61,20 @@ img-char{
 }
 /*resumen para dirigirse a otras secciones */
 .resumen{
-    border: 1px solid ;
     display: flex;
-    gap: 1%;
+    gap: 1vh;
     overflow: scroll;
-    height: 40vh;
+    height: 50vh;
     align-content: center;
+    gap:5px;
 }
 .resumen .cont-img{
-    height: 37;
-    width: 60vh;
+    height: 100%;
+    width: 70vw;
 }
+
 .resumen .cont-img .posters{ 
-    margin: 1%;
     width: 100%;
     height: 97%;
 }
+/*Futuras reviews*/
