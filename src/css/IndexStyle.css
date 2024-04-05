@@ -46,6 +46,8 @@ img{
 /* todo h3 con la etiqueta de ttl */
 .ttl{
     font-size: 3rem;
+    padding-left: 2rem ;
+    
 }
 /*header*/
 .inicio-final{
