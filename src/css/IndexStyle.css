@@ -63,7 +63,7 @@ img-char{
 .resumen{
     display: flex;
     gap: 1vh;
-    overflow: scroll;
+    /* overflow: scroll; */
     height: 50vh;
     align-content: center;
     gap:5px;
@@ -78,3 +78,33 @@ img-char{
     height: 97%;
 }
 /*Futuras reviews*/
+.whishList{
+    
+    
+}
+.whishList .title{
+    color: var(--white_GGST);
+    font-size: 3rem;
+    background-image: linear-gradient(to right, var(--red_GGST),var(--orange_GGST),var(--yellow_GGST),var(--white_GGST));
+}
+.whishList .sect-img{
+    width: 100%;
+}
+.whishList .cont-img{
+    width: 95%;
+    height: 40%;
+    margin: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    justify-self: center;
+    justify-content: center;
+}
+.whishList .cont-img figure{
+    width: 45%;
+    height: 20%;
+    
+}
+.whishList .cont-img img{
+    width: 100%;
+}
