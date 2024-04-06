@@ -22,7 +22,8 @@
     <title>Mi experiencia con juegos De Pelea</title>
 </head>
 <body>
-    <header  class="inicio-final">
+
+    <header  class="sect inicio-final inicio">
         <h1> <span class="material-symbols-outlined"> sports_mma </span> Mi experiencia con juegos de pelea</h1>
         <nav>
             <a href="#ini-home"><i class="bi bi-arrow-down"></i> Home</a>
@@ -31,6 +32,9 @@
         </nav>
     </header>
     <main id="ini-home">
+        <div class="btn-steam">
+            <a href="https://steamcommunity.com/id/DAWSGG/"><i class="bi bi-steam"></i></a>
+        </div>   
 <!--resumen para dirigirse a otras secciones -->
         <section  class="resumen">
             <figure class="cont-img" > <a href="#GGST"><img class="posters" src="./public/img/posters/GGST.webp" alt="guilty gear: Strive"></a></figure>
@@ -126,7 +130,7 @@
 <!--Skullgirls : second Encore -->
         <section class="sect SG">
             
-            <h2 id="SG" class="ttl SG ">Skull Girls: second encore</h2>
+            <h2 id="SG" class="ttl sg">Skull Girls: second encore</h2>
             <section class="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/zX5Qc3D7yJU?si=svTYexHx-A9mp8J1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </section>
@@ -153,48 +157,52 @@
         </section>
     </main>
 <!-- pie de pagina -->
-    <footer class="inicio-final">
+    <footer class="sect inicio-final final">
         
             <section class="link-pag-juegos">
-                <h2>paginas oficiales</h2>
+                <h2 class="ttl">paginas oficiales</h2>
                 <ul>
                     <li><a href="https://www.guiltygear.com/ggst/en/">Guilty Gear: Strive</a></li>
                     <li><a href="https://www.streetfighter.com/5/en-us/index.html">Street figther V</a></li>
                     <li><a href="https://skullgirls.com/">skullgirls</a></li>
-
                 </ul>
             </section>
+
             <section class="img-a-pag-empresas">
                 <div class="sg-devs">
-                    
-                    <figure>
-                        <a href="https://www.futureclub.dev/games"><img src="./public/img/SG/Future_Club_Logo_Vector_V4.webp" alt="Future club"></a>
-                        <figcaption>&copy; Future club </figcaption>
-                    </figure>
-                    <figure>
-                        <a href="https://autumngames.com/"><img src="./public/img/SG/autum_logo_small.webp" alt="autum games"></a>
-                        <figcaption>&copy; autum games </figcaption>
-                    </figure>
-                    <figure>
-                        <a href="https://www.hiddenvariable.com"><img src="./public/img/SG/hvs_logo_cutout_two_tone.webp" alt="Hidden Variable"></a>
-                        <figcaption>&copy; Hidden Variable </figcaption>
+                    <div class="img-big">
+                        <figure class="cont-img">
+                            <a href="https://www.futureclub.dev/games"><img src="./public/img/SG/Future_Club_Logo_Vector_V4.webp" alt="Future club"></a>
+                            <figcaption>&copy; Future club </figcaption>
+                        </figure>
+                    </div>
+                    <div class="img-smll">
+                        <figure class="cont-img">
+                            <a href="https://autumngames.com/"><img src="./public/img/SG/autum_logo_small.webp" alt="autum games"></a>
+                            <figcaption>&copy; autum games </figcaption>
+                        </figure>
+                        <figure class="cont-img">
+                            <a href="https://www.hiddenvariable.com"><img src="./public/img/SG/hvs_logo_cutout_two_tone.webp" alt="Hidden Variable"></a>
+                            <figcaption>&copy; Hidden Variable </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="ggst-devs">
+                    <figure class="cont-img" >
+                        <a href="https://www.arcsystemworks.com/es/"><img src="./public/img/GGST/arcsystemworks-logo.webp" alt="ARC System Works "></a>
+                        <figcaption>&copy; Arc system Works </figcaption>
                     </figure>
                     
                 </div>
-            <div class="ggst-devs">
-                <figure>
-                    <a href="https://www.arcsystemworks.com/es/"><img src="./public/img/GGST/arcsystemworks-logo.webp" alt="ARC System Works "></a>
-                    <figcaption>&copy; Arc system Works </figcaption>
-                </figure>
-                
-            </div>
-            <div class="stf-developers">
-                <figure>
-                    <a href="https://www.capcomusa.com/"><img src="./public/img/SF5/capcom_icon.webp" alt="Capcom"></a>
-                    <figcaption>&copy; Capcom </figcaption>
-                </figure>
-                
-            </div>
+
+                <div class="stf-devs">
+                    <figure class="cont-img" >
+                        <a href="https://www.capcomusa.com/"><img src="./public/img/SF5/capcom_icon.webp" alt="Capcom"></a>
+                        <figcaption>&copy; Capcom </figcaption>
+                    </figure>
+                    
+                </div>
 
             </section>
         

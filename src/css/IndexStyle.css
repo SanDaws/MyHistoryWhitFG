@@ -16,6 +16,8 @@
     --orange_SF:#ff934f;
     --purple_SF:#503047;
     --black:#000000;
+    --mtlgold_SG:#D4af37;
+    --steambtn: #66c0f4;
 
 
 
@@ -56,34 +58,45 @@ a{
 body{
     background-color: var(--colorTexto);
 }
+.btn-steam{
+    background-color: var(--steambtn) ;
+    position: fixed;
+    height: 7vh;
+    width: 3vw;
+    bottom: 1vh ;
+    right: 1vw;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
 /* todo h3 con la etiqueta de ttl */
 .ttl{
     font-size: 3rem;
     padding-left: 2rem ;
     
 }
-
+/*todo figcaptation tendra letra balnca y se alinea al centro debajo de la imagen*/
 figcaption{
     
     color: var(--white_GGST);
     text-align: center;
     
 }
+/*cualquier seccion en donde se contendra un video sera flexibe y */
 .video{
     display: flex;
     justify-content: center;
     align-self: center;
 }
-/*header*/
-.inicio-final{
+/*header y footer*/
+.sect.inicio-final{
     padding: 10px;
     background-color: var(--red_GGST);
     display: flex;
-    justify-content: space-between;
     align-items: center;
     color: var(--white_GGST);
-    position: sticky;
-    top: 0;
+    
 }
 .material-symbols-outlined{
     font-size: 100%;
@@ -92,6 +105,13 @@ figcaption{
     display: flex;
     gap: 10px;
 }
+/* manejo de solo el header */
+.sect.inicio-final.inicio{
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+}
+
 /*resumen para dirigirse a otras secciones */
 .resumen{
     display: flex;
@@ -108,14 +128,7 @@ figcaption{
 }
 
 /*Futuras reviews*/
-.whishList{
-    
-    
-}
-.whishList .ttl.review {
-    color: var(--white_GGST);
-    background-image: linear-gradient(to right, var(--red_GGST),var(--orange_GGST),var(--yellow_GGST),var(--white_GGST));
-}
+
 .whishList .sect-img{
     width: 100%;
     display: flex;
@@ -137,12 +150,27 @@ figcaption{
     
 }
 
-/*guilty gear strive*/
-.sect.ggst .ttl.GGST{
-    color: var(--white_GGST);
-    background-image: linear-gradient(to right, var(--red_GGST),var(--orange_GGST),var(--yellow_GGST),var(--white_GGST));
+/*titulos de todas las zonas*/
+.sect.ggst .ttl{ 
+    color: var(--white_GGST); 
+}
+.sect.ggst .ttl.GGST{/*titulo guilty*/
+    
+    background-image: linear-gradient(to right, var(--red_GGST),var(--orange_GGST),var(--yellow_GGST),var(--colorTexto));
 
 }
+.sect.SFV .ttl.sfv{/*titulo Street fighter*/
+    background-image: linear-gradient(to right, var(--blue_SF),var(--purple_SF),var(--colorTexto));
+
+}
+.sect.SG .ttl.sg{ /*titulo skull girls*/
+    background-image: linear-gradient(to right, var(--mtlgold_SG),var(--colorTexto));
+
+}
+.whishList .ttl.review { /*titulo futuras reviews*/
+    background-image: linear-gradient(to right, var(--red_GGST),var(--orange_GGST),var(--yellow_GGST),var(--colorTexto));
+}
+/*guilty gear strive*/
 .sect.ggst .video{
     margin: 5px 20%;
     
@@ -188,6 +216,12 @@ se aplica en las tres secciones con juegos a la vez*/
 
 
 /*street figther v*/
+.sect.SFV{
+    background-image: url(../../public/img/SF5/backgroundSenatio.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
 .sect.SFV .info{
     display: flex;
     margin: 0 10%;
@@ -196,14 +230,51 @@ se aplica en las tres secciones con juegos a la vez*/
     width: 100%;
     /*height: 100%; */
 }
-/*footer*/
-footer{
-    max-height: 25vh;
+
+/* skullgirls */
+.sect.SG{
+    background-image: url(../../public/img/SG/Maplecrest_Escenario.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
 }
+.sect.SG .tex-art-char p{
+    color: var(--black);
+}
+
+/*footer*/
+.sect.inicio-final.final{
+    justify-content: space-between;
+}
+
 .img-a-pag-empresas{
     display: flex;
+    gap:5%;
+    width: 50%;
+    align-items: center;
 }
-footer img{
-    width: 10%;
-    height: 25%;
+.img-a-pag-empresas .cont-img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
+.img-a-pag-empresas .sg-devs{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-a-pag-empresas .sg-devs .img-big .cont-img{
+    width: 100%;
+}
+.img-a-pag-empresas .sg-devs .img-smll{
+    display: flex;
+    
+
+}
+.img-a-pag-empresas .sg-devs .img-smll .cont-img{
+    width: 45%;
+}
+
